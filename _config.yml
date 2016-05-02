@@ -1,12 +1,12 @@
 # Site Settings
-title: 'Jekyll/TravisCI Project Skeleton'
+title: 'ShadowLink'
 
-description: 'A skeleton for Jekyll/TravisCI projects.'
+description: 'Information Security Consultantation & Education.'
 
 url: ''
 baseurl: '' # the subpath of your site, e.g. /blog
-company: ''
-email: ''
+company: 'ShadowLink'
+email: 'ShadowLinkIT@protonmail.com'
 github_user: ''
 github_url: ''
 

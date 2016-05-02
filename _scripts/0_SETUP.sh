@@ -11,19 +11,19 @@ set -x
 JTS_DBRANCH="master"
 
 # Server IP:
-JTS_SERV_IP="123.123.123.123"
+JTS_SERV_IP="159.203.216.201"
 
 # Server deploy path:
-JTS_SERV_DP="/var/www/SITE_FOLDER"
+JTS_SERV_DP="/var/www/shadowlink-site"
 
 # Username for Travis deploy:
 JTS_TRV_USR="deploy"
 
 # Filename of Travis key:
-JTS_KEYNAME="jts_deploy_key"
+JTS_KEYNAME="shadowlink_deploy"
 
 # Gmail user (DO NOT ADD '@gmail.com'):
-JTS_GML_USE="user"
+JTS_GML_USE="ckreon"
 
 ####################################################
 #

@@ -1,7 +1,16 @@
 // Bootstrap Starter Template with navbar floating right
 
 body {
-    padding-top: 5rem;
+  background-image: url(image_path('circuit_bg_dark.jpg'));
+  color: #fff;
+}
+
+footer {
+	font-size: .8rem;
+	margin-top: 1rem;
+	p {
+		margin-bottom: 0;
+	}
 }
 
 .starter-template {

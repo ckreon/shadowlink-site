@@ -4,11 +4,7 @@
   {% include head.html %}
 
   <body>
-    <!-- Lazy Load CSS -->
-    <!--[if !IE]> -->
-    {% css main %}
-    <!-- <![endif]-->
-    
+  
     {% include nav.html %}
 
     <!-- Main site container -->
@@ -18,9 +14,9 @@
 
       {{ content }}
 
-    </div> <!-- container -->
+      {% include footer.html %}
 
-    {% include footer.html %}
+    </div> <!-- container -->
 
   </body>
 
