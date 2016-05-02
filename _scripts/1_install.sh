@@ -2,13 +2,13 @@
 set -x # Show the output of the following commands (useful for debugging)
 
 # Import the SSH deployment key
-openssl aes-256-cbc -K $encrypted_3a7b766da08b_key -iv $encrypted_3a7b766da08b_iv -in _deploy/$JTS_KEYNAME.enc -out _deploy/$JTS_KEYNAME -d
+openssl openssl aes-256-cbc -K $encrypted_5eefec73b3cd_key -iv $encrypted_5eefec73b3cd_iv -in _deploy/$JTS_KEYNAME.enc -out _deploy/$JTS_KEYNAME -d
 rm _deploy/$JTS_KEYNAME.enc
 chmod 600 _deploy/$JTS_KEYNAME
 mv _deploy/$JTS_KEYNAME ~/.ssh/$JTS_KEYNAME
 
 # Install Other Packages
-npm install
+#npm install
 
 # Install Zopfli
 git clone https://github.com/google/zopfli.git _zopfli

@@ -19,7 +19,7 @@ env:
   - TZ=America/Los_Angeles
     # Jekyll Variables
   - JEKYLL_ENV=production
-    # For
+    # For HTML Proofer
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 sudo: false
 addons:
