@@ -9,7 +9,7 @@ eval `ssh-agent -s`
 ssh-add ~/.ssh/$JTS_KEYNAME
 
 # Deploy to Production Server if branch is master
-if [ $TRAVIS_BRANCH == '$JTS_DBRANCH' ] ; then
+if [ $TRAVIS_BRANCH == $JTS_DBRANCH ] ; then
     # Initialize a new git repo in _site, and push it to our server.
     cd _site
     git init
