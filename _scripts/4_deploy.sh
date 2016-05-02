@@ -3,6 +3,7 @@ set -x
 
 # Deploy to Production Server if branch is master
 if [ $TRAVIS_BRANCH == $JTS_DBRANCH ] ; then
+  
   # Compress assets with Zopfli (add more directories/files as needed)
   _zopfli/zopfli --i1000 _site/*.xml _site/*.html _site/**/*.html _site/assets/*
 
@@ -21,6 +22,9 @@ if [ $TRAVIS_BRANCH == $JTS_DBRANCH ] ; then
   git add .
   git commit -m "Deploy"
   git push --force deploy master
+
 else
-    echo "Not deploying, branch is not $JTS_DBRANCH."
+
+  echo "Not deploying, branch is not $JTS_DBRANCH."
+
 fi
