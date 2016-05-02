@@ -1,7 +1,7 @@
 # Site Settings
 title: 'ShadowLink'
 
-description: 'Information Security Consultantation & Education.'
+description: 'Information Security Consultation & Education.'
 
 url: ''
 baseurl: '' # the subpath of your site, e.g. /blog
