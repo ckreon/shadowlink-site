@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /blog/
 title: Blog
 nav: true
 ---
@@ -11,14 +12,20 @@ nav: true
 	  <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }} | {{ post.author }}</p>
 
 	  <h4>
-	    - <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	  </h4>
 
     <div class="entry">
       {{ post.content | truncatewords:50}}
     </div>
 
-    <p class="read-more">| <a href="{{ site.baseurl }}{{ post.url }}">Read More</a> |</p>
+	    <p class="read-more text-xs-right">
+	    	| <a href="{{ site.baseurl }}{{ post.url }}">Read More</a> |
+	    </p>
+
+    {% if forloop.last == false %}
+  		<hr>
+		{% endif %}
 
 	{% endfor %}
 
