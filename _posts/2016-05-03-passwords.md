@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Password Safety"
+date:   2016-05-03 10:26:00 -0700
+categories: 
+author: c1ph0r
+---
 One of the first things most people think about when it comes to online safety is their password. We all know that passwords are to our online accounts what keys are for our locks. Would you use the same key for your house, your car, your office and your safety deposit box? And if you did, what would happen if a bad guys could get a copy? They'd have access to everything. With so much of our personal, confidential, financial and medical information accessible from our various accounts what can we do to make things as safe as possible?
 
 For me personally I employ and advise a three faceted approach:
