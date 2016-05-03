@@ -1,5 +1,22 @@
 // Custom Styles
 
+.home-logo {
+	background-image: url(image_path('logo_xsmall.png'));
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 220px;
+	height: 300px;
+}
+
+@media (min-width: 320px) {
+	.home-logo {
+		background-image: url(image_path('logo_small.png'));
+		width: 360px;
+		height: 490px;
+	}
+}
+
 .blogpost {
 	margin-top: 3rem;
 	padding: 1rem;
