@@ -17,6 +17,15 @@
 	}
 }
 
+@media (min-width: 1920px) {
+	.home-logo {
+		background-image: url(image_path('logo_large.png'));
+		width: 720px;
+		height: 980px;
+	}
+}
+
+
 .blogpost {
 	margin-top: 3rem;
 	padding: 1rem;

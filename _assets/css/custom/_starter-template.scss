@@ -8,37 +8,37 @@ body {
   background-color: #000;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 481px) {
 	body {
 		background-image: url(image_path('circuit_bg_dark_sm.jpg'));
 	}
 }
 
-@media (min-height: 720px) {
+@media (min-height: 721px) {
 	body {
 		background-image: url(image_path('circuit_bg_dark_smv.jpg'));
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
 	body {
 		background-image: url(image_path('circuit_bg_dark_1k.jpg'));
 	}
 }
 
-@media (min-height: 1280px) {
+@media (min-height: 1281px) {
 	body {
 		background-image: url(image_path('circuit_bg_dark_1kv.jpg'));
 	}
 }
 
-@media (min-width: 1920px) {
+@media (min-height: 1281px) and (min-width: 1081px) {
 	body {
 		background-image: url(image_path('circuit_bg_dark_2k.jpg'));
 	}
 }
 
-@media (min-width: 2560px) {
+@media (min-width: 2561px) {
 	body {
 		background-image: url(image_path('circuit_bg_dark_4k.jpg'));
 	}
