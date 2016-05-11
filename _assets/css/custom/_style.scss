@@ -17,7 +17,15 @@
 	}
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1921px) {
+	.home-logo {
+		background-image: url(image_path('logo_med.png'));
+		width: 540px;
+		height: 740px;
+	}
+}
+
+@media (min-width: 2561px) {
 	.home-logo {
 		background-image: url(image_path('logo_large.png'));
 		width: 720px;
