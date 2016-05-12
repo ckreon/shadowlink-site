@@ -22,4 +22,5 @@ Obviously as time goes on the technology we use becomes smaller, faster, more ef
 Another consideration that should be noted is using old network appliances such as routers, wireless access points and switches. Many of these devices can be updated and I recommend adding them to your normal maintenance schedule. It may or may not be time to upgrade your home wireless access point if it doesn’t support the current wireless standard 802.11, can’t be updated, or doesn’t support a custom OS like [DD-WRT](https://www.dd-wrt.com/).
 
 
-*If you have any specific questions or ideas for future posts, please comment below. Thanks for reading. Stay safe.*
+*If you have any specific questions or ideas for future posts, please send your ideas to opensourcesec@protonmail.com*
+*Thanks for reading. Stay safe.*
