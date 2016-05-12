@@ -51,16 +51,6 @@ Some information security professionals see a password manager as insecure due t
 
 Also, I usually don't recommend keeping hard copies of passwords, but if you can guarantee the physical security of your password list, this in my opinion is preferable to using the same, insecure password for all your accounts.
 
-If you have any specific questions or ideas for future posts, please comment below. Thanks for reading. Stay safe.
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+*If you have any specific questions or ideas for future posts, please send your ideas to opensourcesec@protonmail.com*
+*Thanks for reading. Stay safe.*
