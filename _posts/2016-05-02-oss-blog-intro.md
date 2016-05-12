@@ -15,3 +15,6 @@ ShadowLink would like to present our new learning resource: The OpenSourceSec Bl
 
 Each week this blog will take a look at information security issues that we all need to be concerned with and give our best recommendations for multiple levels of vulnerability. The goal is to demystify information security and provide it free of charge in a way that makes it understandable and useful for all levels of technical proficiency.
 
+
+*If you have any specific questions or ideas for future posts, please send your ideas to opensourcesec@protonmail.com*
+*Thanks for reading. Stay safe.*
