@@ -1,14 +1,10 @@
 # Site Settings
 title: 'ShadowLink'
-
 description: 'Information Security Consultation & Education.'
 
-url: ''
-baseurl: '' # the subpath of your site, e.g. /blog
+# Site Variables
 company: 'ShadowLink'
 email: 'ShadowLinkIT@protonmail.com'
-github_user: ''
-github_url: ''
 
 # The 'home' link in the navbar is configured here -
 # Set these values to change your Homepage:
@@ -28,10 +24,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  # NODE STUFF:
-  #- gulpfile.js
-  #- node_modules
-  #- package.json
 
 gems:
   - jekyll-assets
