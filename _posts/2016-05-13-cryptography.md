@@ -78,6 +78,7 @@ My favorite way to understand this is using paint:
 
 <iframe width="630" height="385" src="https://www.youtube.com/embed/3QnD2c4Xovk" frameborder="0" allowfullscreen></iframe>
 
+
 #####Digital Certificates
 
 These principles also make up how digital certificates work. Like I mentioned before, websites that want to provide secure and safe communication for their users will use a signed digital certificate. When you browse to a site, a variation of the following happens:
