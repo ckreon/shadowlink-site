@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Password Safety"
-date:   2016-05-03 10:26:00 -0700
+title: "Password Safety"
+date: 2016-05-03 10:26:00 -0700
 categories: 
 author: c1ph0r
 ---
@@ -9,9 +9,9 @@ One of the first things most people think about when it comes to online safety i
 
 For me personally I employ and advise a three faceted approach:
 
-    Complex passwords
-    Unique passwords
-    Two-step authentication (where available)
+1. Complex passwords
+2. Unique passwords
+3. Two-step authentication (where available)
 
 Clearly the solution is to use a unique password for each account and make them complicated enough that an attacker couldn't guess it or crack it in an amount of time that would be actionable. One problem this presents to general users is the inconvenience and difficulty in remembering these passwords or storing them in a secure way.
 
@@ -50,7 +50,6 @@ A few closing thoughts:
 Some information security professionals see a password manager as insecure due to it being a single point of failure. I can understand this and would respond that although this might be true, having a complex master password (mine is 25 characters) and using the manager in conjunction with two-step authentication makes it a pretty safe and solid system. And even if there is a breach, none of my passwords are the same and changing them is incredibly fast and easy with a manager.
 
 Also, I usually don't recommend keeping hard copies of passwords, but if you can guarantee the physical security of your password list, this in my opinion is preferable to using the same, insecure password for all your accounts.
-
 
 *If you have any specific questions or ideas for future posts, please send your ideas to opensourcesec@protonmail.com*
 *Thanks for reading. Stay safe.*

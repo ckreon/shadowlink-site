@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Cryptography Basics"
-date:   2016-05-13 09:00:00 -0700
+title: "Cryptography Basics"
+date: 2016-05-13 09:00:00 -0700
 categories: OpenSourceSec
 author: c1ph0r
 ---
-#####Symmetric key encryption
+##### Symmetric key encryption
 
 Contrary to popular belief, even now there are communication methods we can be reasonably assured are safe and private. To understand what we’re up against and how to understand cryptography in general, it helps to look back at Julius Caesar.
 
@@ -63,11 +63,10 @@ In the previous examples, both parties had to meet previously, decide on the pre
 
 *How does Person A and Person B exchange keys if they will never physically meet and can’t be sure there isn’t someone listening in to their communications?*
 
-#####Public key encryption
+##### Public key encryption
 
 Also called Diffie-Hellman encryption, asymmetric public key cryptography was invented by Whitfield Diffie and Martin Hellman in 1976 and solves our problem quite nicely. This technology is how PGP/GPG encryption works. The way I understand what’s going on here is this:
 
-    
 1. Person A uses a special computer application which utilizes a complex mathematical operation to generate a public key and a private key. The public key can be shared, posted online, and hosted on key servers. The private key is kept secret and only able to be accessed with a strong passphrase.
 2. Person B does the same thing.
 3. Person A & Person B exchange public keys and store them in their special application.
@@ -78,8 +77,7 @@ My favorite way to understand this is using paint:
 
 <iframe width="630" height="385" src="https://www.youtube.com/embed/3QnD2c4Xovk" frameborder="0" allowfullscreen></iframe>
 
-
-#####Digital Certificates
+##### Digital Certificates
 
 These principles also make up how digital certificates work. Like I mentioned before, websites that want to provide secure and safe communication for their users will use a signed digital certificate. When you browse to a site, a variation of the following happens:
 

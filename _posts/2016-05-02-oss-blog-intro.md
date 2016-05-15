@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "OpenSourceSec Blog Introduction"
-date:   2016-05-02 17:00:00 -0700
+title: "OpenSourceSec Blog Introduction"
+date: 2016-05-02 17:00:00 -0700
 categories: 
 author: c1ph0r
 ---
@@ -14,7 +14,6 @@ Fortunately there are easy and simple things we can all do to avoid being the â€
 ShadowLink would like to present our new learning resource: The OpenSourceSec Blog. 
 
 Each week this blog will take a look at information security issues that we all need to be concerned with and give our best recommendations for multiple levels of vulnerability. The goal is to demystify information security and provide it free of charge in a way that makes it understandable and useful for all levels of technical proficiency.
-
 
 *If you have any specific questions or ideas for future posts, please send your ideas to opensourcesec@protonmail.com*
 *Thanks for reading. Stay safe.*
