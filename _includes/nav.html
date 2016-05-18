@@ -1,4 +1,4 @@
-<nav id="primary_nav_wrap" class="navbar navbar-dark bg-inverse" role="navigation">
+<nav id="primary_nav_wrap" class="navbar navbar-mobile-fix navbar-dark bg-inverse" role="navigation">
   <a class="navbar-brand" href="{{ site.baseurl }}/">
     {{ site.title }}
   </a>
@@ -8,13 +8,11 @@
     {% if p.nav %}
         {% if page.url == p.url %}
           <li class="nav-item active">
-            <a class="nav-link" href="{{ p.url }}">{{ p.title }}</a>
-          </li>
         {% else %}
           <li class="nav-item">
+        {% endif %}
             <a class="nav-link" href="{{ p.url }}">{{ p.title }}</a>
           </li>
-        {% endif %}
     {% endif %}
     {% endfor %}
 

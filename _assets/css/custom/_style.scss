@@ -106,3 +106,7 @@
 #primary_nav_wrap ul:hover + img {
 	display: block;
 }
+
+.navbar-mobile-fix {
+	z-index: $zindex-navbar-fixed;
+}
