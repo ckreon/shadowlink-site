@@ -9,9 +9,9 @@ In this week's OpenSourceSec blog, I wanted to introduce our readers to a deeper
 
 ##### Exposure
 
-If you remember from back in our [post on malware](http://www.shadowlinkit.com/malware/), there a wide variety of attack vectors malware can use to infect your system. Ransomware can use most of these methods but generally is found propagating through email attachments, P2P site downloads, malicious links and through malvertising:
+If you remember from back in our [post on malware](http://www.shadowlinkit.com/malware/), there are a wide variety of attack vectors malware can use to infect your system. Ransomware can use most of these methods but generally is found propagating through email attachments, P2P site downloads, malicious links and through malvertising:
 
-* You get an email that could be from a spoofed address of a trusted sender or look like you sent yourself something. The attachment could be a Word document with a macro that gets things going once you open the file. Or it could be a RAR with a CHM file inside that you're instructed to open. 
+* You get an email that could be from a spoofed address of a trusted sender or look like you sent yourself something. The attachment could be a Word document with a macro(small bits of code) that gets things going once you open the file. Or it could be a RAR(archive) with a CHM file(executable code) inside that you're instructed to open. 
 
 * You are sent, or otherwise obtain, an infected MP3, JPG, video, or application from a P2P sharing resource.
 
@@ -57,7 +57,7 @@ The first and foremost defense against being the victim of ransomware is followi
 
 ##### Backups
 
-If there's one takeaway I would want people to have from this post it would be that is ESSENTIAL that you have a good data backup protocol. If you primarily rely on a cloud based backup, be aware that some variants of ransomware can affect those files also if they are on a continuous backup schedule. And it's hard to imagine that future implementations of this type of malware won't target these types of services. 
+If there's one takeaway I would want people to have from this post it would be that it is ESSENTIAL that you have a good data backup protocol. If you primarily rely on a cloud based backup, be aware that some variants of ransomware can affect those files also if they are on a continuous backup schedule. And it's hard to imagine that future implementations of this type of malware won't target these types of services. 
 
 In my opinion, the best strategy (even if using cloud based backup services) is to employ a local backup to external drive that can be physically removed from the system, and safely stored offline. Safely to me means in an anti-static bag, in a waterproof container, and in a safe. Remember if you use a NAS or mapped drive alone to backup data these types of malware will target them too. 
 
