@@ -65,4 +65,4 @@ A really good description of what's going on during a ransomware infection can b
 
 
 *If you have any specific questions or ideas for future posts, please send your ideas to opensourcesec@protonmail.com*
-*Thanks for reading. Stay safe.*
+*Thanks for reading. Stay safe.* 
