@@ -31,6 +31,9 @@ Fortunately, this level of ransomware is easily dealt with generally by rebootin
 
 The best place to look for removal guides and advice is at [Bleeping Computer's Virus, Spyware, & Malware Removal Guides](http://www.bleepingcomputer.com/virus-removal/)
 
+*Update 05/28/2016* 
+: There have also been reports of attackers merely threatening to DDoS a target network and demanding preemptive ransom to avoid being taken down. Check out this [CloudFlare Blog](https://blog.cloudflare.com/empty-ddos-threats-meet-the-armada-collective/) and don't be surprised if this type of scam doesn't utilize ransomware in the future. 
+
 ##### help_decrypt
 
 If it turns out that you have been hit by something more sophisticated like a CryptoLocker, CryptoWall, or TeslaCrypt, a few very important differences occur compared to the scareware covered earlier:
