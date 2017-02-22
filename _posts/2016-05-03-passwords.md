@@ -28,7 +28,7 @@ If you're wondering how to come up with a secure password that you can remember 
     Then I take the first letters from each word: TsanababdithoT
     Then swap out the vowels for some numbers/special characters: T5@n@b@bd1th0T
 
-I checked that password on [RoboForm's Password Strength Checker](http://www.roboform.com/how-secure-is-my-password) and got the following results:
+I checked that password on RoboForm's Password Strength Checker (link deprecated), and got the following results:
 
     Estimated Time To Crack: Billions of Years
     Recommendations: Good Job! All Character Types In Use.
